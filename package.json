@@ -1,0 +1,20 @@
+{
+  "name": "quex",
+  "version": "1.0.0",
+  "description": "A app which randomly generates a set of question from a google sheet.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Piyush L. Shrestha",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "googleapis": "^131.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
